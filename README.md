@@ -8,3 +8,9 @@ Therefore the use of private is not needed.
 
 The use of private has no impact on the execution of this program.
 
+important thing to note:
+
+the code uses a **named action listener**. Specifically, the *TextFieldHandler* class is defined as a **private inner class** within the TextFieldTest class and implements the 
+ActionListener interface.
+
+ This named class is then **instantiated and registered** as the action listener for the text fields and password field in the GUI.
